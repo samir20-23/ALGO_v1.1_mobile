@@ -38,20 +38,20 @@
 
 //                               methode number 3
 
-// let array =[2,6,3,6,4];
-// let len = array.length;
-// let temps;
-// let a = 0 ;
-// while(a<len){
-//     let b =a;
-//     while(b<len){
-//         if (array[a] < array[b]) {
-//             temps = array[a];
-//             array[a] = array[b];
-//             array[b] = temps;
-//           }
-// b++
-//     }
-//     a++
-// }
-// console.log(array);
+let array =[2,6,3,6,4];
+let len = array.length;
+let temps;
+let a = 0 ;
+while(a<len){
+    let b =a;
+    while(b<len){
+        if (array[a] < array[b]) {
+            temps = array[a];
+            array[a] = array[b];
+            array[b] = temps;
+          }
+b++
+    }
+    a++
+}
+console.log(array);
